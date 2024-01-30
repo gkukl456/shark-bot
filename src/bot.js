@@ -66,15 +66,15 @@ if (clientID && clientSecret) {
         ],
         nodes: [
             {
-                host: process.env.LAVALINK_HOST || "lava.link",
-                port: parseInt(process.env.LAVALINK_PORT) || 80,
-                password: process.env.LAVALINK_PASSWORD || "CorwinDev",
+                host: process.env.LAVALINK_HOST || "bali.weissx.com",
+                port: parseInt(process.env.LAVALINK_PORT) || 14007,
+                password: process.env.LAVALINK_PASSWORD || "youshallnotpass",
                 secure: Boolean(process.env.LAVALINK_SECURE) || false
             },
             {
-                host: "lavalink.techpoint.world",
-                port: 80,
-                password: "techpoint"
+                host: "bali.weissx.com",
+                port: 14007,
+                password: "youshallnotpass"
             },
         ],
         send(id, payload) {
@@ -93,9 +93,9 @@ if (clientID && clientSecret) {
         ],
         nodes: [
             {
-                host: process.env.LAVALINK_HOST || "lava.link",
-                port: parseInt(process.env.LAVALINK_PORT) || 80,
-                password: process.env.LAVALINK_PASSWORD || "CorwinDev",
+                host: process.env.LAVALINK_HOST || "bali.weissx.com",
+                port: parseInt(process.env.LAVALINK_PORT) || 14007,
+                password: process.env.LAVALINK_PASSWORD || "youshallnotpass",
                 secure: Boolean(process.env.LAVALINK_SECURE) || false
             },
         ],
